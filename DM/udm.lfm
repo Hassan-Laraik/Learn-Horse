@@ -1,0 +1,23 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 371
+  HorizontalOffset = 565
+  VerticalOffset = 244
+  Width = 314
+  object ZNX: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'RawStringEncoding=DB_CP'
+    )
+    Connected = True
+    DisableSavepoints = False
+    HostName = 'localhost'
+    Port = 0
+    Database = 'modelecommerce2'
+    User = 'root'
+    Password = '12345678'
+    Protocol = 'mysql'
+    Left = 164
+    Top = 60
+  end
+end

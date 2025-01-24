@@ -1,0 +1,13 @@
+mysql> desc clients;
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| code_cli    | varchar(50)  | NO   | PRI | NULL    |       |
+| nom_cli     | varchar(45)  | NO   |     | NULL    |       |
+| adresse_cli | varchar(100) | YES  |     | NULL    |       |
+| phone_cli   | varchar(14)  | YES  |     | NULL    |       |
+| fax_cli     | varchar(20)  | YES  |     | NULL    |       |
+| email_cli   | varchar(45)  | YES  |     | NULL    |       |
+| status_cli  | varchar(20)  | YES  |     | NULL    |       |
++-------------+--------------+------+-----+---------+-------+
+
