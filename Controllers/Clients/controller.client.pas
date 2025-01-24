@@ -160,10 +160,10 @@ end;
 
  procedure ClientRoute;
  begin
-  THorse.Get ('/Lister_Clients'      , GetClients);
-  THorse.Get ('/Lister_Clients/:code', GetClient);
-  THorse.post('/Ajouter_Client'      , postClient); //postClient
-  THorse.put ('/Modifier_Client'     , putClient); //postClient
+  THorse.Get ('/Clients'      , GetClients);
+  THorse.Get ('/Clients/:code', GetClient);
+  THorse.post('/Client'      , postClient); //postClient
+  THorse.put ('/Client'     , putClient); //postClient
  end;
 
 
