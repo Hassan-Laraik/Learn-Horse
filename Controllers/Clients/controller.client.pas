@@ -11,7 +11,7 @@ uses
   {$ENDIF}
   Classes ,sysutils,
   { you can add units after this }
-  Horse,Horse.Jhonson,  UDM,  DataSet.Serialize,fpjson;
+  Horse,Horse.Jhonson,  UDM,  DataSet.Serialize,dataset.Serialize.Config,fpjson;
 
 procedure ClientRoute;
 
@@ -166,6 +166,9 @@ end;
   THorse.put ('/Client'     , putClient); //postClient
  end;
 
+initialization
+ TDataSetSerializeConfig.GetInstance.CaseNameDefinition := cndLower;
+ TDataSetSerializeConfig.GetInstance.Import.DecimalSeparator:='.';
 
 end.
 

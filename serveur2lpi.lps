@@ -9,7 +9,7 @@
         <IsPartOfProject Value="True"/>
         <TopLine Value="8"/>
         <CursorPos X="2" Y="28"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="46"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
@@ -23,7 +23,7 @@
         <EditorIndex Value="2"/>
         <TopLine Value="3"/>
         <CursorPos X="41" Y="30"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="46"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -34,9 +34,9 @@
         <UnitName Value="Controller.Client"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="144"/>
-        <CursorPos X="26" Y="165"/>
-        <UsageCount Value="24"/>
+        <TopLine Value="127"/>
+        <CursorPos X="36" Y="137"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
@@ -47,7 +47,7 @@
         <TopLine Value="17"/>
         <CursorPos Y="19"/>
         <FoldState Value=" T3iC0T1 PZV14"/>
-        <UsageCount Value="30"/>
+        <UsageCount Value="29"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -55,7 +55,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="96"/>
         <CursorPos X="24" Y="111"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -63,10 +63,10 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="671"/>
         <CursorPos X="17" Y="683"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="26">
+    <JumpHistory HistoryIndex="27">
       <Position>
         <Filename Value="serveur2lpi.lpr"/>
         <Caret Line="53" Column="55" TopLine="37"/>
@@ -174,6 +174,10 @@
       <Position>
         <Filename Value="serveur2lpi.lpr"/>
         <Caret Line="26" Column="7" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="Controllers/Clients/controller.client.pas"/>
+        <Caret Line="170" Column="10" TopLine="145"/>
       </Position>
     </JumpHistory>
     <RunParams>
