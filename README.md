@@ -19,10 +19,10 @@ Pour documenter le dépôt GitHub [Learn-Horse](https://github.com/Hassan-Laraik
        git clone https://github.com/Hassan-Laraik/Learn-Horse.git
        ```
    - Instructions pour installer les dépendances.
-      boss init
-      boss install horse
-      boss install jhonson
-      boss install github.com/viniciussanchez/dataset-serialize
+     -  boss init
+     -  boss install horse
+     -  boss install jhonson
+     -  boss install github.com/viniciussanchez/dataset-serialize
 
 6. **Utilisation**
    - Exemples de commandes ou d'exécutions.
